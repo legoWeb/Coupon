@@ -1,0 +1,20 @@
+<?php
+/**
+ * @var Magento\Framework\View\Element\Template $block
+ */
+?>
+<div class="field custom_attribute_test required">
+    <label class="label" for="custom_attribute_test">
+        <span><?= $block->escapeHtml(__('Custom Attribute')) ?></span>
+    </label>
+    <div class="control">
+        <input type="text"
+               name="custom_attribute_test"
+               id="phone_number"
+               value=""
+               title="<?= $block->escapeHtmlAttr(__('custom_attribute_test')) ?>"
+               class="input-text"
+               data-validate="{required:true}"
+        >
+    </div>
+</div>
